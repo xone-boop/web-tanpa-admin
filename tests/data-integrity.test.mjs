@@ -27,10 +27,53 @@ test('product pricing and stock values are valid', () => {
   }
 });
 
+test('product images are absolute URLs and variants are well-defined', () => {
+  const absoluteUrl = /^https?:\/\//i;
+
+  for (const product of products) {
+    assert.ok(Array.isArray(product.images), `Product ${product.name} must provide an images array`);
+    assert.ok(
+      product.images.length > 0,
+      `Product ${product.name} must provide at least one product image`
+    );
+
+    for (const url of product.images) {
+      assert.ok(absoluteUrl.test(url), `Product ${product.name} image must be an absolute URL: ${url}`);
+    }
+
+    if (product.variants) {
+      assert.ok(product.variants.name, `Product ${product.name} variants must include a name`);
+      assert.ok(
+        Array.isArray(product.variants.options),
+        `Product ${product.name} variants must provide an options array`
+      );
+      assert.ok(
+        product.variants.options.length > 0,
+        `Product ${product.name} variants must provide at least one option`
+      );
+    }
+  }
+});
+
 test('hero imagery is defined for the landing page', () => {
   assert.ok(Array.isArray(images.hero), 'Hero image collection must be an array');
   assert.ok(images.hero.length > 0, 'Hero image collection cannot be empty');
   for (const url of images.hero) {
     assert.ok(url.startsWith('http'), `Hero image URL must be absolute: ${url}`);
+  }
+});
+
+test('image collections have unique absolute URLs', () => {
+  const absoluteUrl = /^https?:\/\//i;
+
+  for (const [collection, urls] of Object.entries(images)) {
+    assert.ok(Array.isArray(urls), `${collection} collection must be an array`);
+    const seen = new Set();
+
+    for (const url of urls) {
+      assert.ok(absoluteUrl.test(url), `${collection} image must be an absolute URL: ${url}`);
+      assert.ok(!seen.has(url), `Duplicate URL detected in ${collection} collection: ${url}`);
+      seen.add(url);
+    }
   }
 });
