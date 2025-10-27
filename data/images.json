@@ -1,0 +1,18 @@
+{
+  "hero": [
+    "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=2000&q=80",
+    "https://images.unsplash.com/photo-1630369160812-26c7604cbd8c?auto=format&fit=crop&w=2000&q=80"
+  ],
+  "promo": [
+    "https://images.pexels.com/photos/3373744/pexels-photo-3373744.jpeg?auto=compress&cs=tinysrgb&w=2000",
+    "https://images.pexels.com/photos/4612157/pexels-photo-4612157.jpeg?auto=compress&cs=tinysrgb&w=2000"
+  ],
+  "productFlatlays": [
+    "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&w=1600&q=80",
+    "https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  ],
+  "textures": [
+    "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80",
+    "https://images.pexels.com/photos/1667088/pexels-photo-1667088.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  ]
+}

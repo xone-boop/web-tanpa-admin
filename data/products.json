@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "sku": "SW-LIP-ROUGE",
+    "name": "Velvet Rouge Lipstick",
+    "slug": "velvet-rouge-lipstick",
+    "price": 189000,
+    "images": [
+      "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.pexels.com/photos/3373744/pexels-photo-3373744.jpeg?auto=compress&cs=tinysrgb&w=2000"
+    ],
+    "description": "Satin-finish lipstick infused with rosehip oil for a nourishing, wine-inspired glow.",
+    "categories": ["Lips"],
+    "stock": 42,
+    "variants": {
+      "name": "Shade",
+      "options": ["Rosewood", "Berry", "Brick"]
+    }
+  },
+  {
+    "id": "2",
+    "sku": "SW-EYE-AURA",
+    "name": "Crimson Aura Eyeshadow Quad",
+    "slug": "crimson-aura-eyeshadow-quad",
+    "price": 229000,
+    "images": [
+      "https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.unsplash.com/photo-1630369160812-26c7604cbd8c?auto=format&fit=crop&w=2000&q=80"
+    ],
+    "description": "Four deeply pigmented shades ranging from champagne shimmer to deep plum for day-to-night glam.",
+    "categories": ["Eyes"],
+    "stock": 28
+  },
+  {
+    "id": "3",
+    "sku": "SW-FACE-FLUSH",
+    "name": "Rose Flush Cheek Balm",
+    "slug": "rose-flush-cheek-balm",
+    "price": 159000,
+    "images": [
+      "https://images.pexels.com/photos/4612157/pexels-photo-4612157.jpeg?auto=compress&cs=tinysrgb&w=2000",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "description": "Buildable cream blush that melts into skin for a lit-from-within sheen.",
+    "categories": ["Face"],
+    "stock": 34
+  },
+  {
+    "id": "4",
+    "sku": "SW-SET-SOIR",
+    "name": "Evening Soirée Set",
+    "slug": "evening-soiree-set",
+    "price": 389000,
+    "images": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=2000&q=80",
+      "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "description": "Limited edition trio featuring lipstick, blush, and highlighting mist in Scarlet Wine tones.",
+    "categories": ["Sets"],
+    "stock": 16
+  },
+  {
+    "id": "5",
+    "sku": "SW-LIP-VELVET",
+    "name": "Cabernet Lip Velvet",
+    "slug": "cabernet-lip-velvet",
+    "price": 199000,
+    "images": [
+      "https://images.pexels.com/photos/3373744/pexels-photo-3373744.jpeg?auto=compress&cs=tinysrgb&w=2000",
+      "https://images.unsplash.com/photo-1630369160812-26c7604cbd8c?auto=format&fit=crop&w=2000&q=80"
+    ],
+    "description": "Soft-matte liquid lipstick with flexible wear and antioxidant-rich botanicals.",
+    "categories": ["Lips"],
+    "stock": 51,
+    "variants": {
+      "name": "Shade",
+      "options": ["Rosewood", "Berry", "Brick"]
+    }
+  },
+  {
+    "id": "6",
+    "sku": "SW-EYE-SILK",
+    "name": "Silken Lash Mascara",
+    "slug": "silken-lash-mascara",
+    "price": 179000,
+    "images": [
+      "https://images.unsplash.com/photo-1630369160812-26c7604cbd8c?auto=format&fit=crop&w=2000&q=80",
+      "https://images.pexels.com/photos/1667088/pexels-photo-1667088.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "description": "Featherlight mascara delivering lift, volume, and a velvety finish without clumping.",
+    "categories": ["Eyes"],
+    "stock": 46
+  },
+  {
+    "id": "7",
+    "sku": "SW-FACE-GLOW",
+    "name": "Wine Glow Highlighting Mist",
+    "slug": "wine-glow-highlighting-mist",
+    "price": 149000,
+    "images": [
+      "https://images.pexels.com/photos/4612157/pexels-photo-4612157.jpeg?auto=compress&cs=tinysrgb&w=2000",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "description": "Ultra-fine mist that sets makeup while imparting a radiant, bouquet-inspired glow.",
+    "categories": ["Face"],
+    "stock": 37
+  },
+  {
+    "id": "8",
+    "sku": "SW-SET-MINI",
+    "name": "Charmed Mini Lip Trio",
+    "slug": "charmed-mini-lip-trio",
+    "price": 259000,
+    "images": [
+      "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "description": "Travel-sized lip trio featuring Scarlet Wine bestsellers in a keepsake pouch.",
+    "categories": ["Sets"],
+    "stock": 23
+  }
+]
